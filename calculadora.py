@@ -5,3 +5,7 @@ posicionamento = float(input("Digite a pontuação de Posicionamento: "))
 ponto_extra = float(input("Digite a pontuação de Ponto Extra: "))
 
 print("Pontuações cadastradas com sucesso!")
+
+media = (presenca + posicionamento + ponto_extra) /3
+
+print(f"media final:{media:.2f}")
